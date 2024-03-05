@@ -140,4 +140,18 @@ console.log((4 || null)); // null is falsy in Javascript
 === strict  equality
 */
 
+console.log(5&3);
+console.log(8|1);
+console.log(3^3);
+console.log(5<<2); // (a << b) ==> a * (2^b)
+console.log(5>>1); // (a >> b) ==> a / (2^b)
+//Ternary Operator
+/* (condition) ?(expression 1):(expresssion 2)
+true then exp1
+false then exp 2 */
+console.log((2>1)? "harsh":"balwani");
 
+// When all are plus then associativity is from left to right 
+// String + Number  OR Number + String ==> String 
+
+console.log(5 + 5 + "5" + 5 + 5);
